@@ -1,0 +1,121 @@
+@media only screen and (max-width:767px){
+    .get-btn{
+        display: none !important;
+    }
+    .hero{
+        display: block;
+        text-align: center;
+    }
+    .bg img{
+        margin-top: 4em;
+        width: 70%;
+    }
+    .service_head{
+        display: block;
+    }
+    .box{
+        margin: 2em;
+    }
+    .owl-carousel .item img {
+        width: 40% !important;
+    }
+    .price_box{
+        display: block;
+        margin: 1em;
+    }
+    .project_count{
+        display: block;
+    }
+    .project_count div{
+        padding: 1em 0;
+    }
+    .profile_card{
+        display: block;
+    }
+    .profile_card .card{
+        margin: 1.5em 0;
+    }
+    .blog_box{
+        display: block;
+    }
+    .blog_card{
+        margin: 1.5em 0;
+    }
+    .owl-carousel .owl-item img{
+        width: 100% !important;
+    }
+    .tech_use .owl-carousel .owl-item img{
+        width: 50% !important;
+    }
+    footer .info{
+        display: block;
+    }
+
+
+    /* About page */
+
+    .work{
+        display: block;
+    }
+    .work div{
+        margin: 1em;
+        text-align: center;
+    }
+    .order1{
+        display: grid;
+        order: 4;
+    }
+
+    .review_card{
+        display: block;
+        padding: 1em;
+    }
+    .review_card .card{
+        margin: 1.5em;
+    }
+    .services{
+        display: block;
+    }
+    .services div{
+        margin: 1em;
+        text-align: center;
+    }
+    .services img{
+        margin: 1em auto !important;
+    }
+    .point{
+        display: block;
+    }
+    .contact-info{
+        display: block;
+    }
+    .pages{
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width:767px) and (max-width:1023px) {
+    .price_box{
+        grid-template-columns: 1fr 1fr;
+    }
+    .service_head{
+        grid-gap: 12px;
+    
+    }
+    .profile_card{
+        grid-template-columns: 1fr 1fr;
+    }
+    .service_head{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5em;
+    }
+    .review_card{
+        grid-template-columns: 1fr 1fr;
+    }
+    .pages{
+        display: block;
+        margin: 0 auto;
+    }
+}
