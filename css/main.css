@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif !important;
     background-color: #ECEEF8 !important;
@@ -569,3 +572,17 @@ ul{
     color: #111;
     text-decoration: none;
 }
+.arrow_up a:hover{
+    color: #142cd6;
+}
+.gotopbtn{
+    position: fixed;
+    padding: 1em;
+    bottom: 20px;
+    border-radius: 50px;
+    right: 50px;
+    color: #142cd6;
+    text-decoration: none;
+    font-size: 32px;
+}
+
