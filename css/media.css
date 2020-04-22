@@ -50,6 +50,9 @@
     footer .info{
         display: block;
     }
+    .gotopbtn{
+        display: none;
+    }
 
 
     /* About page */
@@ -117,5 +120,8 @@
     .pages{
         display: block;
         margin: 0 auto;
+    }
+    .gotopbtn{
+        display: none;
     }
 }
