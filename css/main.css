@@ -21,11 +21,11 @@ header{
     color: #142cd6 !important;
 }
 .jumbotron-fluid {
-    background:#142cd6 !important ;
+/*     background:#142cd6 !important ; */
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    color: #fff;
+    color: #111;
 }
 .hero{
     display: grid;
@@ -45,7 +45,7 @@ svg .shadow {
     box-shadow: 0 12px 36px -10px #142cd6;
   }
 .heading{
-    color: #ECEEF8;
+    color: #111;
 }
 .need{
     margin-top: 4em;
