@@ -577,10 +577,11 @@ ul{
 }
 .gotopbtn{
     position: fixed;
-    padding: 1em;
+    padding: 5px 10px;
     bottom: 20px;
     border-radius: 50px;
     right: 50px;
+    background-color: rgba(255, 255, 255, .50);
     color: #142cd6;
     text-decoration: none;
     font-size: 32px;
